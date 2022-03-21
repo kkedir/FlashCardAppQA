@@ -5,9 +5,9 @@
 User can open card screen to add question and answer. Inside the new card screen you can save your new question and will be able to see it on the main screen or cancel it to go back to original screen. 
 
 ### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
+https://github.com/kkedir/FlashCardAppQA/blob/master/walkthrough.gif
 
-<img src="YOUR_GIF_URL_HERE" width=200><br>
+<img src="https://github.com/kkedir/FlashCardAppQA/blob/master/walkthrough.gif" width=200><br>
 
 
 ## Required

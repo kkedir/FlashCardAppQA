@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/Answer"
+        android:id="@+id/Flashcard_Answer"
         android:layout_width="wrap_content"
         android:layout_height="200dp"
         android:layout_centerHorizontal="true"
@@ -28,6 +28,17 @@
         android:text="Barack Obama"
         android:textSize="40dp"
         android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/next_sign"
+        android:src="@drawable/icon_next"
+        android:layout_below="@id/Flashcard_Question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="35dp"
+        android:layout_marginTop="35dp"
+         />
 
     <ImageView
         android:id="@+id/Plus_Sign"
@@ -39,7 +50,43 @@
         android:layout_marginRight="20dp"
         android:layout_marginBottom="10dp"
         />
+    <ImageView
+        android:id="@+id/delete_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Flashcard_Question"
+        android:layout_marginTop="20dp"
+        android:layout_alignLeft="@id/Flashcard_Question"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/icon_delete" />
 
+    <ImageView
+        android:id="@+id/toggle_choices_visibility"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+         />
 
+    <Button
+        android:id="@+id/reset_button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text="Reset"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/edit_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/icon_edit" />
 
 </RelativeLayout>

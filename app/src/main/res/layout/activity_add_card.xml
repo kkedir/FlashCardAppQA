@@ -5,6 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".add_card">
+
+
+
     <ImageView
         android:id="@+id/cancel_button"
         android:layout_width="wrap_content"
@@ -33,7 +36,7 @@
         android:hint="Enter The Answer Here!"
         />
     <ImageView
-        android:id="@+id/Save"
+        android:id="@+id/Save_sign"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/icon_save"
